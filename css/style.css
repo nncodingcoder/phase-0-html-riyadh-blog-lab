@@ -11,6 +11,7 @@ body {
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  ba
 }
 
 .wrapper {
@@ -19,9 +20,55 @@ body {
   padding-bottom: 40px;
 }
 
+h2, #text0{
+  margin-bottom: 70px;
+}
+
 #content {
-  padding: 20px;
+  padding: 30px;
   background: rgba(255,255,255,.85);
+  z-index: 1;
+  margin-top: 200px;
+}
+
+#content, #one {
+  z-index: 2;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+#content, #two {
+  z-index: 2;
+  margin-bottom: 80px;
+}
+
+#content, #three{
+  z-index: 2;
+  margin-bottom: 80px;
+}
+
+#content, #text1{
+  color: #000000;
+margin-top: -70px;
+margin-bottom: 60px;
+}
+
+#content, #text2{
+  margin-top: -60px;
+}
+
+#content, #text3{
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+#content, #text5{
+margin-top: -70px;
+margin-bottom: 20px;
+}
+
+#content, #text6{
+  color: #000000;
 }
 
 h1, h2 {
